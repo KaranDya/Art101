@@ -39,4 +39,7 @@ h1 {
 img {
   max-width: 700px;
   max-height: 700px;
+  padding: 20px;
+  border: dashed;
+  border-color: aqua;
 }
