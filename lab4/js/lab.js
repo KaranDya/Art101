@@ -23,8 +23,8 @@ main();
 //Psuedocode:
     //Print the board before each turn
       //Loop through each row
-      //Loop through each space
-      //Print X, O, or space
+        //Loop through each space
+        //Print X, O, or space
       //Print a new line at the end
       //Print a horizontal line in between
     //Accept user input
