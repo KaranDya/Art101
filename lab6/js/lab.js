@@ -4,7 +4,7 @@
 
 
 //variables
-myTransport = ["HondaAccord", "cars", "bikes", "planes", "buses"];
+myTransport = ["HondaAccord", " ", "cars", " ", "bikes", " ", "planes", " ", "buses"];
 
 
 //declaring my car as an object
@@ -20,7 +20,7 @@ myMainRide = {
 
 
 //Output
-document.writeln("Different modes of my transportation " + myTransport + "<br>");
+document.writeln("Different modes of my transportation: " + myTransport + "<br>");
 
 
 
