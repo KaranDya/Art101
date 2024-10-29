@@ -2,8 +2,7 @@
 // Author: Karan Dahiya
 // Date: Oct 28, 2024
 
-//variables
-let 
+
 
 //function
 function usernameinput () {
