@@ -9,6 +9,7 @@
 
 //set an array
 const numbers = [2, 10, 22, 44, 66, 52, 75, 88];
+console.log(numbers)
 
 //create a function 
 function mycalculator(x) {
@@ -18,6 +19,7 @@ function mycalculator(x) {
 
 //verify the function
 mycalculator(numbers[3]);
+console.log(mycalculator)
 
 
 mycalculator(numbers[5]);
@@ -40,4 +42,8 @@ console.log("Results: ", mapResults);
  var mapResults = results;
 
  // Use jQuery to select the element by its ID and set the HTML content
-$("#output").html(mapResults);
+$("#Script_Output").html(
+    "Numbers array: " + numbers + "<br>"+
+    "Numbers after addition of 4 according to my function: "+ results +"<br>"+
+    "Numbers after subtraction by 1 according to my function: "+ mapResults +"<br>"
+);
