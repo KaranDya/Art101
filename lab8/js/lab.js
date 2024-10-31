@@ -42,7 +42,7 @@ console.log("Results: ", mapResults);
  var mapResults = results;
 
  // Use jQuery to select the element by its ID and set the HTML content
-$("#Script_Output").html(
+$("#Script-Output").html(
     "Numbers array: " + numbers + "<br>"+
     "Numbers after addition of 4 according to my function: "+ results +"<br>"+
     "Numbers after subtraction by 1 according to my function: "+ mapResults +"<br>"
