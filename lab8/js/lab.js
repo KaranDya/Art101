@@ -28,22 +28,21 @@ mycalculator(numbers[5]);
 numbers.map(mycalculator);
 
 //assign a new function
-numbers.map(function(x){
+var results = numbers.map(function(x){
     var results = (x - 1)
     return results;
 })
+
+
 
 // log the results of the callback functions
 var mapResults = numbers.map(mycalculator);
 console.log("Results: ", mapResults);
 
 //for j query
- // Your map results data
- var mapResults = results;
-
  // Use jQuery to select the element by its ID and set the HTML content
-$("#Script-Output").html(
+$("#output").html(
     "Numbers array: " + numbers + "<br>"+
-    "Numbers after addition of 4 according to my function: "+ results +"<br>"+
-    "Numbers after subtraction by 1 according to my function: "+ mapResults +"<br>"
+    "Numbers after addition of 4 according to my function: "+ mapResults +"<br>"+
+    "Numbers after subtraction by 1 according to my function: "+ results +"<br>"
 );
