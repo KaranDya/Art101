@@ -17,10 +17,10 @@ function mycalculator(x) {
 }
 
 //verify the function
-mycalculator(numbers[3])
+mycalculator(numbers[3]);
 
 
-mycalculator(numbers[5])
+mycalculator(numbers[5]);
 
 //using map to further use my function and call back to it
 numbers.map(mycalculator);
@@ -33,4 +33,11 @@ numbers.map(function(x){
 
 // log the results of the callback functions
 var mapResults = numbers.map(mycalculator);
-console.log("Results: ", mapResults)
+console.log("Results: ", mapResults);
+
+//for j query
+ // Your map results data
+ var mapResults = "Your map results here";
+
+ // Use jQuery to select the element by its ID and set the HTML content
+$("#output").html(mapResults);
