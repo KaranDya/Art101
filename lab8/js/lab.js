@@ -37,7 +37,7 @@ console.log("Results: ", mapResults);
 
 //for j query
  // Your map results data
- var mapResults = "Your map results here";
+ var mapResults = results;
 
  // Use jQuery to select the element by its ID and set the HTML content
 $("#output").html(mapResults);
