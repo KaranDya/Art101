@@ -3,9 +3,6 @@
 <head>
 	<!-- This title is used for tabs and bookmarks -->
 	<title>Lab 8 - Anon Functions and Callbacks</title>
-    
-    <script src="js/lab.js" defer></script>
-   
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -17,16 +14,23 @@
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
 	
-	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab.js" DEFER></script>
+    <link rel="stylesheet" type="text/css" href="css/site.css">
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="js/lab.js" DEFER></script>
+
 </head>
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			
+			<head>
+                
+            </head>
             <h1>Lab 8 - Anon Functions and Callbacks</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
@@ -43,17 +47,14 @@
 					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
 			</div>
 
-			<div id="output">
-                <h2>Results</h2>
-                <p>Below are the images of my console log and java script file</p>
-                <img src="img/lab8console.JPG"/>
-                <img src="img/lab8java.JPG"/>    
-            </div>
-            
+			<div class="minor-section">
+					<h2>Results</h2>
+					<div id="output"></div>
+			</div>
             
 		</section>
 		<nav id="links">
-			<a href="https://karandya.github.io/Art101/"> Back to Homepage</a>
+			<!-- Put links to other pages (including the homepage) here. -->
 		</nav>
 	</main>
 </body>
