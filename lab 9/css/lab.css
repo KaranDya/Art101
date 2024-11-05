@@ -26,8 +26,8 @@ img {
   max-height:700px ;
 }
 .special {
-  background-color: lavender;
-  border: dotted 50px red;
+  background-color: rgb(238, 239, 183);
+  border: dotted 50px rgb(209, 179, 251);
   color: pink;
   font-weight: bold;
 }
