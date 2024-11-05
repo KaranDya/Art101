@@ -4,6 +4,7 @@
     border: dotted 1px #888;
     background-color: #E6E6FA;
   }
+
 body {
     background-color: #E3dac9;
 }  
@@ -25,9 +26,17 @@ img {
   max-width:700px ;
   max-height:700px ;
 }
+
 .special {
   background-color: rgb(238, 239, 183);
   border: dotted 50px rgb(209, 179, 251);
   color: pink;
   font-weight: bold;
+}
+
+.special-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 1px #888;
+  background-color: #E6E6FA;
 }

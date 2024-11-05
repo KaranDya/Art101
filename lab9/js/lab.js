@@ -7,26 +7,30 @@
    Date: 2023
 */
 
-$("#challenge").append("<button id='button-challenge'>Make Special</button>");
+function  main(){
 
-// add a click listener to the challenge button
-$("#button-challenge").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#challenge").toggleClass("special");
-});
+    $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
-$("#problems").append("<button id='button-problems'>Make Special</button>");
+    // add a click listener to the challenge button
+    $("#button-challenge").click(function(){
+        // now add (or subtract) the "special" class to the section
+        $("#challenge").toggleClass("special");
+    });
 
-// add a click listener to the challenge button
-$("#button-problems").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#problems").toggleClass("special");
-});
+    $("#problems").append("<button id='button-problems'>Make Special</button>");
 
-$("#reflection").append("<button id='button-reflection'>Make Special</button>");
+    // add a click listener to the problems button
+    $("#button-problems").click(function(){
+        // now add (or subtract) the "special" class to the section
+        $("#problems").toggleClass("special");
+    });
 
-// add a click listener to the challenge button
-$("#button-reflection").click(function(){
-    // now add (or subtract) the "special" class to the section
-    $("#reflection").toggleClass("special");
-});
+    $("#reflection").append("<button id='button-reflection'>Make Special</button>");
+
+    // add a click listener to the reflection button
+    $("#button-reflection").click(function(){
+        // now add (or subtract) the "special" class to the section
+        $("#reflection").toggleClass("special");
+    });
+}
+main()
