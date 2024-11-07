@@ -31,12 +31,13 @@ img {
   max-width:700px ;
   max-height:700px ;
 }
+/*create a flex container*/
 #output {
     display: flex;
     flex-direction: column;
-    gap: 10px; /* Space between messages */
-    width: 80%; /* Set the width of the conversation */
-    margin: 20px auto; /* Center conversation on page */
+    gap: 10px; 
+    width: 80%; 
+    margin: 20px auto; 
 }
 
 /* Default styling for each message */
@@ -55,22 +56,22 @@ img {
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.9em;
-    word-wrap: break-word; /* Ensure long words break and don't overflow */
+    word-wrap: break-word; 
 }
 
 /* Align odd messages (1st, 3rd, 5th, etc.) to the left */
 .text:nth-child(odd) {
-    justify-content: flex-start; /* Align the .text div to the left */
+    justify-content: flex-start; 
 }
 
 /* Align even messages (2nd, 4th, 6th, etc.) to the right */
 .text:nth-child(even) {
-    justify-content: flex-end; /* Align the .text div to the right */
+    justify-content: flex-end; 
 }
 
 /* Styling for the input field and button */
 #user-input {
-    width: 60%; /* Make input field wide enough */
+    width: 60%; 
     padding: 10px;
     margin: 10px 0;
     font-size: 1em;
