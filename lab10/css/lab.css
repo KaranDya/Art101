@@ -1,0 +1,89 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: dotted 1px #888;
+    background-color: #E6E6FA;
+  }
+
+  body {
+    background-color: #E3dac9;
+}  
+
+#content {
+    background-color: #E0FFFF;
+}
+
+h1 {
+  font-family: serif;
+  font-size:300% ;
+  color:#6A5ACD ;
+}
+
+p {
+  margin-left: 30px
+}
+
+#header {
+  border-style: dashed;
+}
+
+img {
+  max-width:700px ;
+  max-height:700px ;
+}
+#output {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between messages */
+    width: 80%; /* Set the width of the conversation */
+    margin: 20px auto; /* Center conversation on page */
+}
+
+/* Default styling for each message */
+.text {
+    display: flex; /* Make each .text a flex container */
+}
+
+.text p {
+    display: inline-block;
+    max-width: 60%;
+    margin: 3px;
+    padding: 10px 15px;
+    border: 4px solid #99c0f3;
+    border-radius: 15px; 
+    background-color: rgb(247, 150, 239);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9em;
+    word-wrap: break-word; /* Ensure long words break and don't overflow */
+}
+
+/* Align odd messages (1st, 3rd, 5th, etc.) to the left */
+.text:nth-child(odd) {
+    justify-content: flex-start; /* Align the .text div to the left */
+}
+
+/* Align even messages (2nd, 4th, 6th, etc.) to the right */
+.text:nth-child(even) {
+    justify-content: flex-end; /* Align the .text div to the right */
+}
+
+/* Styling for the input field and button */
+#user-input {
+    width: 60%; /* Make input field wide enough */
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1em;
+    border-radius: 15px;
+    border: 2px solid #99c0f3;
+}
+
+#make-convo {
+    padding: 10px 15px;
+    font-size: 1em;
+    background-color: #6A5ACD;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}    
