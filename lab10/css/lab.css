@@ -42,7 +42,7 @@ img {
 
 /* Default styling for each message */
 .text {
-    display: flex; /* Make each .text a flex container */
+    display: flex; 
 }
 
 .text p {
