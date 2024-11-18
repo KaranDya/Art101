@@ -40,7 +40,7 @@ var myButton = document.getElementById("button");
 myButton.addEventListener("click",function() {
     var name = document.getElementById("input").value;
     var house = sortingHat(name);
-    newText = "<p>The Sorting Hat has named you to be in the " + house + " House.<br> This house is a part of three other mysterious houses that make up the elusive Hogwarts. Hogwatrs is known to be a school of magic and mystery and is not visible to normal human beings. It is only accesible through invition as explained by our sources.</p>";
+    newText = "<p>The Sorting Hat has named you to be in the " + house + " House.<br> This house is a part of three other mysterious houses that make up the elusive Hogwarts. Hogwarts is known to be a school of magic and mystery and is not visible to normal human beings. It is only accesible through invition as explained by our sources.</p>";
     document.getElementById("output").innerHTML = newText;
 })
 
