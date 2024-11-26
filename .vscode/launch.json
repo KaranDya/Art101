@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open index.html",
-            "file": "/Users/go0fy/Documents/GitHub/Art101/lab2/index.html"
+            "file": "/Users/go0fy/Documents/GitHub/Art101/lab14/js/lab.js"
         }
     ]
 }
